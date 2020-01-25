@@ -1,4 +1,4 @@
-species,next-to-other-species,isolated,next-to-same-species
-queen-annes-lace,0,0,3
-golden-rod,3,1,3
-purple-aster,4,2,9
+next_to_other_species,isolated,next_to_same_species
+queen_annes_lace,0,0,3
+golden_rod,3,1,3
+purple_aster,4,2,9
