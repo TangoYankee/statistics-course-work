@@ -31,7 +31,7 @@ sudo sh -c 'echo "deb https://<my.favorite.ubuntu.mirror>/ bionic-backports main
 ```  
 
 ## Run
-Command
+Enter shell
 ```
 R
 ```
@@ -52,5 +52,9 @@ Type 'contributors()' for more information and
 Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
+```
+Run Script
+```
+Rscript [file-name.r]
 ```
 
