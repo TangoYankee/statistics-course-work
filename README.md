@@ -29,7 +29,12 @@ sudo apt-get install r-base
 ```
 sudo sh -c 'echo "deb https://<my.favorite.ubuntu.mirror>/ bionic-backports main restricted universe"'
 ```  
-
+5. install additional packages
+```
+https://cran.r-project.org/src/contrib/gplots_3.0.1.2.tar.gz
+```wget -q https://cran.r-project.org/src/contrib/[package-name-and-version].tar.gz```  
+```sudo R CMD INSTALL [package-name-and-version].tar.gz```
+```
 ## Run
 Enter shell
 ```
