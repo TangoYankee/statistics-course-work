@@ -3,7 +3,7 @@ library(gplots)
 library(ISwR)
 
 # Setup
-celldata <- read.csv("cell-results.csv")
+celldata <- read.csv("cell-results.csv", header=TRUE)
 attach(celldata)
 
 # One:
@@ -66,3 +66,5 @@ t.test(orig.a,teflon.a)
 t.test(tcp.a,teflon.a)
 
 cell.mean*100
+
+detach(celldata)
