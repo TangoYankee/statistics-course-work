@@ -11,10 +11,10 @@ Calculate the probability for each of the following events:
 - ```1-pnorm(42,mean=35,sd=6)```
  
 (c) Getting 10 out of 10 successes in a binomial distribution with probability 0.8 (80%).
-- ```1-pbinom(9,size=10,prob=.8)```
+- ```1-pbinom(9,size=10,prob=0.8)```
 
 (d) X < 0.9 when X has the standard uniform distribution.
-- ```punif(.9)```
+- ```punif(0.9)```
 
 (e) X > 6.5 in a chi^2 distribution with 2 degrees of freedom.
 - ```1-pchisq(6.5, 2, ncp=0, lower.tail= TRUE, log.p = FALSE)```
